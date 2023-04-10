@@ -66,6 +66,4 @@ The third capturing group, ```([a-z\.]{2,6})```, includes a bracketed character 
 
 The last capturing group, ```([\/\w \.-]*)``` includes a bracketed character set ```[\/\w \.-]``` which matches any character including an escaped ```\/```, an escaped alphanumeric or underscore word character ```\w```, an escaped ```\.```, and/or ```-``` character. This set is followed by the ```*``` quantifier, indicating a match of 0 or more of the preceding character set. This entire last capturing group is then matched 0 or more times, as indicated by the ```*``` quantifier following the last capturing group, meaning this entire portion of the URL is optional or can have as many additions as delineated.
 
-## Author
 
-Created by Zhongcheng Zhao. For additional questions and information, please go to my [GitHub profile](https://github.com/zhngzh527)
